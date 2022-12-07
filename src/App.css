@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+
+}
+
+html, body{
+ color: rgba(59, 132, 249, 0.681);
+ background-color: rgb(74, 146, 208);
+ font-family: Lato, Arial;
+ margin-top: 40px;
+}
+h1{
+  color: black;
+  font-size: 40px;
+  font-family: Roboto, 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.aplicacion-tareas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-contenedor{
+  width: 50%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freeLogo{
+  width: 300px;
+  max-height: 300%;
+  align-items: center;
+}
+
+.lista-de-tareas{
+  width: 600px;
+  min-height: 500px;
+  background-color: rgba(183, 244, 109, 0.778);
+  padding: 25px;
+  margin: 10px;
+  border-radius: 40px;
+}
